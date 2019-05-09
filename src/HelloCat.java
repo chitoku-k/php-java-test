@@ -1,5 +1,8 @@
 class HelloCat {
     public static void main(String args[]) {
-        Cat cat = new Cat();
+        new Cat() {{
+            this.comment = "Hello, I am a cat.";
+            meow();
+        }};
     }
 }
