@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php-java/php-java": "dev-master"
+    },
+    "scripts": {
+        "clean": "rm build/*",
+        "run": [
+            "javac -encoding UTF8 -d build src/*",
+            "cd build && jar -cvfe ../out.jar HelloCat *",
+            "php test.php"
+        ]
+    }
+}
