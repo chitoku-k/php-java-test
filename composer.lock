@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-java/php-java.git",
-                "reference": "dc5395d3e1f863feaafd72d6fef9988b97435b5d"
+                "reference": "c91451a672c8db91ad983718e842d874e1eecdd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-java/php-java/zipball/dc5395d3e1f863feaafd72d6fef9988b97435b5d",
-                "reference": "dc5395d3e1f863feaafd72d6fef9988b97435b5d",
+                "url": "https://api.github.com/repos/php-java/php-java/zipball/c91451a672c8db91ad983718e842d874e1eecdd8",
+                "reference": "c91451a672c8db91ad983718e842d874e1eecdd8",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
                 }
             ],
             "description": "JVM emulator by PHP",
-            "time": "2019-05-10T15:06:02+00:00"
+            "time": "2019-05-11T04:41:54+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
